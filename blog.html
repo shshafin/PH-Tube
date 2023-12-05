@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="night">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="shortcut icon" href="images/blog.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <section class="container mx-auto mt-48">
+
+        <div class="join join-vertical w-full shadow-2xl shadow-purple-700/100 ...">
+            <div class="collapse collapse-arrow join-item border border-red-500">
+                <input type="radio" name="my-accordion-4" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                    Discuss the scope of var, let, and const...
+                </div>
+                <div class="collapse-content">
+                    <p>1. <strong>var</strong> : Variables declared with var have function scope. This means they are
+                        only scoped to the function in which they are declared. If a variable is declared inside a
+                        function using var, it is not accessible outside that function.
+
+                        If a variable is declared outside any function using var, it becomes a global variable and is
+                        accessible throughout the entire program.</p> <br>
+                    <p>2. <strong>let</strong> :
+
+                        Variables declared with let have block scope. This means they are limited to the block,
+                        statement, or expression in which they are defined. Blocks are denoted by curly braces {}.
+                    </p>
+                    <br>
+
+                    <p>
+                        3. <strong>const</strong>
+                        :
+
+                        Variables declared with const also have block scope. However, const is used to declare
+                        constants, meaning their values cannot be reassigned after initialization.
+                    </p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border border-blue-500">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">
+                    Tell us the use cases of null and undefined?
+                </div>
+                <div class="collapse-content">
+                    <p> 1.<strong>null</strong>:
+
+                        The null value is explicitly assigned to a variable to indicate the absence of any object value.
+                        It is a deliberate empty value.
+
+                        It is often used when you want to explicitly say that a variable should have no value or that an
+                        object property should have no reference.</p>
+                    <br>
+                    <p>2. <strong>undefined</strong>:
+
+                        The undefined value represents a variable that has been declared but has not been assigned a
+                        value, or an object property that does not exist.
+
+                        It is the default value of function parameters that are not provided.
+
+                        It is automatically assigned to variables that are declared but not initialized.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border border-purple-500">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">
+                    What do you mean by REST API?
+                </div>
+                <div class="collapse-content">
+                    <p>REST API stands for Representational State Transfer Application Programming Interface. It is an
+                        architectural style for designing networked applications, and it is commonly used in the context
+                        of web services. REST is not a specific technology but rather a set of architectural principles
+                        and constraints.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
